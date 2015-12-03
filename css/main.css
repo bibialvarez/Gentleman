@@ -1,0 +1,89 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: Verdana;
+}
+li{
+	list-style-type:none; 
+}
+a{
+	text-decoration: none;
+}
+.top,.footer{
+	background: #323a45; 
+}
+.menu{
+	float: right;
+}
+.menu li{
+	float: left;
+	padding: 20px;
+}
+.logo span{
+	font-weight: bold;
+	font-size: 40px;
+}
+.logo{
+	font-size: 40px;
+	display: inline-block;	
+}
+.logo2{
+	font-size: 30px;	
+}
+.logo2 span{
+	font-weight: bold;
+	font-size: 30px;
+}
+.bg-gray{
+  background: #f0f0f0;
+}
+.pd{
+	padding: 40px;
+}
+img{
+	width: 100%;
+}
+.icons{
+	display: inline;
+	right: 0;
+	position: relative;
+}
+.submenu li{
+	display: inline;
+	position: relative;
+}
+.galeria{
+	display: block;
+}
+.galeria h4,.galeria .icon{
+	display: inline;
+}
+.galeria .icon{
+	float: right;
+}
+.project-encabezado{
+	display: block;
+}
+.follow img{
+	height: 150px;
+	width: 150px;
+	display: inline;
+}
+.abc-small{
+	font-size: 10px;
+}
+.redes i{
+	color: gray;
+	margin-right: 5px;
+	font-size: 45px;
+	padding: 2px;
+	border-radius: 50%;
+	border: 1px dashed gray;
+}
+.purple{
+	color: rgba(150,100,230,.9);
+}
+.pink{
+	color: red;
+}
