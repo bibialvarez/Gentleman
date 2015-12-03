@@ -45,9 +45,7 @@ img{
 	width: 100%;
 }
 .icons{
-	display: inline;
-	right: 0;
-	position: relative;
+	float: right;
 }
 .submenu li{
 	display: inline;
@@ -75,14 +73,14 @@ img{
 }
 .redes i{
 	color: gray;
-	margin-right: 5px;
 	font-size: 45px;
-	padding: 2px;
+	padding: 5px;
 	border-radius: 50%;
 	border: 1px dashed gray;
 }
 .purple{
-	color: rgba(150,100,230,.9);
+	/*color: rgba(150,100,230,.9);*/
+	color: gray;
 }
 .pink{
 	color: red;
