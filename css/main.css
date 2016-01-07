@@ -13,13 +13,6 @@ a{
 .top,.footer{
 	background: #312d38; 
 }
-.menu{
-	float: right;
-}
-.menu li{
-	float: left;
-	padding: 20px;
-}
 .logo span{
 	font-weight: bold;
 	font-size: 40px;
