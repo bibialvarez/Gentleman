@@ -4,6 +4,9 @@ body{
 	font-size: 15px;
 	font-family: Verdana;
 }
+{
+	outline: 1px solid red;
+}
 li{
 	list-style-type:none; 
 }
@@ -34,11 +37,28 @@ a{
 .pd{
 	padding: 40px;
 }
+.big{
+	font-size: 25px;
+	font-weight: 600;
+}
 img{
 	width: 100%;
 }
-.icons{
-	float: right;
+.redes div{
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	border: 1px dashed gray;
+	float: left;
+}
+.redes i{
+  font-size: 30px;
+  padding: 10px;
+  color: gray;
+  text-align: center;
+}
+hr{
+	border-top: 1px solid gray;
 }
 .submenu li{
 	display: inline;
@@ -57,23 +77,27 @@ img{
 	display: block;
 }
 .follow img{
-	height: 150px;
+	height: 145px;
 	width: 150px;
 	display: inline;
 }
 .abc-small{
 	font-size: 10px;
 }
-.redes i{
-	color: gray;
-	font-size: 45px;
-	padding: 5px;
-	border-radius: 50%;
-	border: 1px dashed gray;
-}
 .purple{
 	/*color: rgba(150,100,230,.9);*/
 	color: gray;
+}
+.mg0auto{
+	left: 45%;
+	position: relative;
+}
+.radius{
+	border-radius: 25%;
+}
+.bg-pink{
+	background: #D82C69;
+	padding: 0 4px; 
 }
 .pink{
 	color: #94294f;
